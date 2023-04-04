@@ -3,6 +3,7 @@ h1{
   font-weight: 300;
   margin-left: auto;
   margin-right: auto;
+  
 }
 img {
   width: 30%;
@@ -19,6 +20,20 @@ img {
   color: rgb(101, 98, 98);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+img:hover {
+  transform: rotate(360deg);
+  transition: transform 3s;
+}
+
+.container-main h1 {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 5; }
 }
 
 body { 
