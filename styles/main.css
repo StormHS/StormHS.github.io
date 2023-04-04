@@ -7,16 +7,15 @@ h1{
 }
 .home-button {
 position: fixed;
-top: 0;
-left: 0;
+top: 10px;
+left: 50px;
 padding: 10px;
 }
-.about-button {
-position: fixed;
-top: 0;
-left: 80px;
-padding: 10px;
+
+.blog-1 {
+  
 }
+
 img {
   width: 30%;
   max-width: 100%;
