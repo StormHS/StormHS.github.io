@@ -1,11 +1,13 @@
-
+/* styles for desktop */
 h1{
   color:black;
+  font-weight: 300;
   margin-left: auto;
   margin-right: auto;
 }
 img {
   width: 30%;
+  max-width: 100%;
   border: 3px solid;
   border-color: blanchedalmond;
   margin-left: auto;
@@ -15,7 +17,29 @@ img {
 
 .container-main {
   text-align: center;
+  color: rgb(101, 98, 98);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
+body { 
+  font-size: x-large;
+  font-weight: 100;
+  color: rgb(101, 98, 98);
+}
 
-
+/* styles for mobile */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+  img {
+    width: 80%;
+  }
+  .container-main {
+    font-size: 16px;
+  }
+  body {
+    font-size: medium;
+  }
+}
