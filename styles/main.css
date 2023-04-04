@@ -28,7 +28,6 @@ body {
   color: rgb(101, 98, 98);
 }
 
-/* styles for mobile */
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 24px;
