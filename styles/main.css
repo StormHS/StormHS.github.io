@@ -81,6 +81,11 @@ a {
   text-decoration: none;
   color: rgb(183, 43, 43);
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+  text-align: left;
+}
 
 @media screen and (max-width: 768px) {
   h1 {
