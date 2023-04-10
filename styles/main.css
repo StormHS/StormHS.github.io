@@ -77,6 +77,10 @@ h3 {
   color: brown;
 }
 
+h4 {
+  color: brown;; 
+}
+
 a {
   text-decoration: none;
   color: rgb(183, 43, 43);
